@@ -29,7 +29,7 @@ public class ExtrawestApplication {
                     Role.ADMIN);
             userRepository.insert(user);
 
-            List<Advertising> advertisingList = List.of(
+            var advertisingList = List.of(
                     new Advertising("phone", "IPhone X", 699,
                             "Egor", "093-766-23-08", LocalDateTime.now()),
                     new Advertising("phone", "Samsung S70", 1149,

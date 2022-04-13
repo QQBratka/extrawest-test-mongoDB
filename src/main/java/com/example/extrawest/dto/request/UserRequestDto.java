@@ -1,8 +1,8 @@
 package com.example.extrawest.dto.request;
 
-import javax.validation.constraints.Size;
 import com.example.extrawest.security.validate.FieldsValueMatch;
 import com.example.extrawest.security.validate.ValidEmail;
+import javax.validation.constraints.Size;
 import lombok.Getter;
 
 @FieldsValueMatch(field = "password",
